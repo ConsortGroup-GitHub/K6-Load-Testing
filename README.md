@@ -38,4 +38,10 @@ With k6, you can automate and schedule to trigger tests very frequently with a s
 - _brew install k6_.
 
 **On Windows** :
-- _winget install k6_. (**official k6 package**) / _choco install k6_. (**unofficial k6 package**)    
+- _winget install k6_. (**official k6 package**) / _choco install k6_. (**unofficial k6 package**)  
+
+#### How to Run scenario test
+
+On the  'K6-Load-Testing' root folder for example, onlyu run this command : 
+- _k6 run single-request_
+https://github.com/ConsortGroup-GitHub/K6-Load-Testing/blob/main/K6_screenshots/K6_runTest.PNG
